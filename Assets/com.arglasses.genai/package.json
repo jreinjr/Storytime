@@ -1,0 +1,25 @@
+{
+  "name": "com.arglasses.genai",
+  "displayName": "[Tool] MetaGen GenAI",
+  "description": "MetaGen integrations for Text and Images",
+  "version": "1.0.1",
+  "unity": "2021.3",
+  "author": {
+    "name": "David Geisert",
+    "email": "dgeisert@meta.com",
+    "url": "https://www.internalfb.com/profile/view/12812556"
+  },
+  "keywords": [
+    "AI",
+    "MetaGen",
+    "GenAI"
+  ],
+  "samples": [
+    {
+      "displayName": "No samples yet",
+      "path": "Samples"
+    }
+  ],
+  "type": "sample",
+  "hideInEditor": false
+}
