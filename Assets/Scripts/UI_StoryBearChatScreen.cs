@@ -23,9 +23,10 @@ public class UI_StoryBearChatScreen : MonoBehaviour
         LogChatMessage(chatInput.text, ChatUser.HUMAN);
         chatInput.text = "";
         // Send full chat history to server
+        
     }
 
-    void LogChatMessage(string message, ChatUser user)
+    public void LogChatMessage(string message, ChatUser user)
     {
         GameObject msgPrefab = (user == ChatUser.HUMAN ? humanMessagePrefab : aiMessagePrefab);
         GameObject msgGO = Instantiate(msgPrefab, chatLog);
